@@ -1,0 +1,11 @@
+SEND Enter the test score TO DISPLAY
+RECEIVE testScore FROM KEYBOARD
+IF teste Score >= 80 THEN SEND 'A' TO DISPLAY
+Else if IF teste Score >= 70 THEN SEND 'B' TO DISPLAY
+END if
+Else if IF teste Score >= 60 THEN SEND 'C' TO DISPLAY
+END if
+Else if IF teste Score >  0 THEN SEND 'D' TO DISPLAY
+END if
+Else if IF teste Score < 0 THEN SEND 'FAIL' TO DISPLAY
+END if
