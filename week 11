@@ -1,0 +1,4 @@
+SEND 'Enter year of birth' TO DISPLAY
+RECEIVE year_of_birth FROM KEYBOARD
+SET Age TO 2022-year_of_birth
+SEND "You are" & Age & 'years old" TO DISPLAY
