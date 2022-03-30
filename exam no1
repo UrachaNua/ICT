@@ -1,0 +1,11 @@
+RECEIVE Temperature FROM KEYBOARD
+IF Temperature < 22 THEN
+   SEND 'Cold the Bathroom temperature is usually between 22-24 celciue degree' TO DISPLAY
+ELSE
+   IF Temperature < 25 THEN
+      SEND 'Perfect' TO DISPLAY
+   ELSE
+       SEND 'FAIL' TO DISPLAY
+   END IF
+ END IF
+END IF
